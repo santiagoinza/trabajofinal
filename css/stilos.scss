@@ -1,0 +1,980 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+    text-align: center;
+
+}
+.titulo-header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+
+}
+
+.header-nav {
+
+    text-align: center;
+
+}
+
+.titulo-header {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    padding: 15px;
+}
+
+.navegador {
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor {
+    gap: .5rem;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        " uno dos tres cuatro"
+        "cinco seis siete ocho"
+        "nueve diez once doce"
+        "trece catorce quince dieciseis"
+        "dieciseis diecisite dieciocho diecinueve";
+}
+
+.main-titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: .5rem;
+}
+
+.main-otro-titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: .5rem;
+}
+
+.main-parrafo {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}
+
+.uno {
+    grid-template-areas: uno;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+
+
+}
+
+.main-foto {
+    border-radius: 15%;
+
+}
+
+.main-foto2 {
+    border-radius: 15%;
+
+}
+
+.main-button {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 35%;
+    padding: .20rem;
+    border: solid;
+    color: darkgray;
+    font-size: 15px;
+}
+
+
+.dos {
+    grid-template-areas: dos;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+
+.tres {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.cuatro {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.cinco {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.seis {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.siete {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.ocho {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.nueve {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.diez {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.once {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.doce {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.trece {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.catorce {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.quince {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.dieciseis {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.diecisiete {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.dieciocho {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.diecinueve {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+
+.veinte {
+    grid-template-areas: tres;
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+}
+.main-turismo {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+
+.contenedor-turismo {
+    gap: .5rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        " turismo-uno turismo-dos turismo-tres"
+        " turismo-cuatro turismo-cinco turismo-seis"
+        " turismo-siete turismo-ocho turismo-nueve";
+
+}
+
+.turismo-foto {
+    border-radius: 15%;
+}
+
+.turismo-titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.turismo-h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 25px;
+}
+
+.contenedor-croacia {
+    gap: .5rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        " croacia1 croacia2 croacia3"
+        " croacia4 croacia5 croacia6"
+        " croacia7 croacia8 croacia9";
+
+}
+
+.titulo-croacia2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.foto-croacia {
+    border-radius: 15%;
+}
+
+.titulo-croacia {
+    padding: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+.main-deporte {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+
+.contenedor-deporte {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+    padding: 40px;
+    gap: 1rem;
+
+
+}
+
+.titulo-deporte {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.foto-deporte {
+    border-radius: 15%;
+    text-align: center;
+}
+
+.parrafo-deporte {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}
+
+
+.div1-deportes {
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+
+}
+
+.div2-deportes {
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+
+}
+
+.div3-deportes {
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+
+}
+
+.div4-deportes {
+    border: solid 1px;
+    border-radius: 10%;
+    padding: .5rem;
+    border-color: antiquewhite;
+
+}
+
+.info {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+
+.titulo-obelisco {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.obelisco {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        " obelisco1 obelisco2 obelisco3 "
+        " obelisco4 obelisco5 obelisco6 "
+        " obelisco7 obelisco8 obelisco9 ";
+    gap: .5rem;
+    padding-top: 1rem;
+}
+
+.obelisco-h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.obelisco-foto {
+    border-radius: 15%;
+}
+
+.puenteboca-foto {
+    border-radius: 15%;
+    padding-bottom: 2px;
+}
+
+.puente-bocah2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.parrafo-puenteboca {
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+.parrafo-puenteboca::first-letter {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.fotos-antiguas {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        " bsas1 bsas2"
+        " bsas3 bsas4"
+        " bsas5 bsas6";
+    gap: .5rem;
+    padding-top: 1rem;
+
+}
+
+.titulo-bsas2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.bsas-h2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.foto-bsas {
+    border-radius: 15%;
+}
+
+.nota-color {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+
+.contenedor-parque-lezama {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        " parque1 parque2"
+        " parque3 parque4";
+    gap: .5rem;
+}
+
+.lezama-h2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.lezama-foto {
+    border-radius: 15%;
+
+}
+
+.parrafo-lezama {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 3rem;
+    column-count: 2;
+    column-gap: 2rem;
+
+}
+
+.parrafo-lezama::first-letter {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.contenedor-rosedal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        " rosedal1 rosedal2 ";
+    gap: .5rem;
+}
+
+.rosedal-h2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.rosedal-foto {
+    border-radius: 15%;
+}
+
+.parrafo-rosedal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 3rem;
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+.parrafo-rosedal::first-letter {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.titulo-kavanagh {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+
+}
+
+.foto-kavanagh {
+    border-radius: 50%;
+}
+
+.contenedor-kavanagh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "kavanagh1 kavanagh2"
+        "kavanagh3 kavanagh4";
+    gap: .5rem;
+}
+
+.parrafo-kavanagh {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 3rem;
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+.parrafo-kavanagh::first-letter {
+    font-size: 25px;
+    font-style: italic;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+
+.container-indio {
+    display: flex;
+    gap: 2rem;
+}
+
+.titulo-solari {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.parrafo-indio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2rem;
+}
+
+.parrafo-indio::first-line {
+    font-size: 17px;
+}
+
+.parrafo-indio::first-letter {
+    font-size: 20px;
+}
+
+.foto-indio {
+    border-radius: 15%;
+}
+
+.indio1 {
+    border: solid .1px gray;
+    border-radius: 15%
+}
+
+.indio2 {
+    border: solid .1px gray;
+    border-radius: 15%
+}
+
+.entradas-h2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.foto-entradas {
+    border-radius: 10%;
+}
+
+.parrafo-entradas {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2rem;
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule-style: double;
+    column-rule-width: 3px;
+
+}
+
+.parrafo-entradas::first-line {
+    font-size: 18px;
+}
+
+.parrafo-entradas::first-letter {
+    font-size: 21px;
+}
+
+.larenga {
+    display: flex;
+    gap: 2rem;
+}
+
+.larenga-h2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.foto-larenga {
+    border-radius: 15%;
+}
+
+.parrafo-renga {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2rem;
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule-style: double;
+    column-rule-width: 3px;
+
+}
+
+.parrafo-renga::first-line {
+    font-size: 18px;
+}
+
+.congreso-h2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.foto-congreso {
+    border-radius: 15%;
+}
+
+
+.parrafo-congreso {
+    text-align: right;
+   margin-left: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2rem;
+
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule-style: double;
+    column-rule-width: 3px;
+}
+
+
+.parrafo-congreso::first-line {
+    font-size: 18px;
+}
+.contenedor-costa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-areas: 
+    " costa1 costa2 costa3"
+    "costa4 costa5 costa6";
+    gap: .5rem;
+
+}
+.costah2 {
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.parrafo-costa {
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.parrafo-costa::first-line {
+    font-size: 18px;
+} 
+.foto-costa {
+    border-radius: 15%;
+}
+.footer {
+
+    padding: 25px;
+    gap: 4px;
+    text-align: center;
+
+}
+
+.footer-icon {
+    font-size: 30px;
+    padding: 4px;
+    color: black;
+
+
+}
+
+@media (max-width: 579px){
+    .contenedor {
+display: flex;
+flex-direction: column;
+     }
+}
+
+
+
+@media (max-width: 579px){
+.main-parrafo {
+font-size: 13px;
+}
+}
+
+
+
+
+@media (max-width: 578px){
+.contenedor-turismo {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.contenedor-croacia {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.contenedor-deporte {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.obelisco {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.fotos-antiguas {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.contenedor-parque-lezama {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.contenedor-rosedal {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.contenedor-kavanagh {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.container-indio {
+display: grid;
+grid-template-columns: 1;
+grid-template-rows: 1;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-indio {
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.foto-indio {
+margin: auto;
+width: 80%;
+}
+}
+
+@media (max-width: 578px){
+.larenga {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.contenedor-costa {
+display: flex;
+flex-direction: column;
+}
+}
+
+@media (max-width: 578px){
+.parrafo-congreso {
+column-count: 1;
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.foto-congreso {
+margin: auto;
+width: 80%;
+}
+}
+@media (max-width: 578px) {
+.foto-entradas {
+margin: auto;
+width: 80%;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-entradas {
+column-count: 1;
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-renga {
+column-count: 1;
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.foto-larenga {
+margin: auto;
+width: 80%;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-costa {
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.puenteboca-foto {
+margin: auto;
+width: 80%;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-puenteboca {
+column-count: 1;
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-lezama {
+column-count: 1;
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-kavanagh {
+column-count: 1;
+font-size: 15px;
+}
+}
+
+@media (max-width: 578px) {
+.parrafo-rosedal {
+column-count: 1;
+font-size: 15px;
+}
+}

@@ -1,50 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.header {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-inline: 2rem;
-
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-
-
-}
-
-.menu-item {
-    border: solid .1px gray;
-    border-radius: 30%;
-    display: inline-block;
-    padding: 8px;
-
-
-
-}
-
-.menu-link {
-    color: black;
-    text-decoration: none;
-}
-
-
-
-
-.main {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-inline: 2rem;
-}
 
 .contenedor {
     gap: .5rem;
@@ -267,32 +221,6 @@
     padding: .5rem;
     border-color: antiquewhite;
 }
-
-.header {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-inline: 2rem;
-
-}
-
-.header-nav {
-
-    text-align: center;
-
-}
-
-.titulo-header {
-    text-align: center;
-    color: black;
-    font-size: 35px;
-    padding: 15px;
-}
-
-.navegador {
-    padding: 20px;
-    text-align: center;
-}
-
 .main-turismo {
     max-width: 1000px;
     margin: 0 auto;
@@ -358,23 +286,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
-
-.footer {
-
-    padding: 25px;
-    gap: 4px;
-    text-align: center;
-
-}
-
-.footer-icon {
-    font-size: 30px;
-    padding: 4px;
-    color: black;
-
-
-}
-
 .main-deporte {
     max-width: 1000px;
     margin: 0 auto;
@@ -767,6 +678,7 @@ main {
     border-radius: 15%;
 }
 
+
 .parrafo-congreso {
     text-align: right;
    margin-left: 10rem;
@@ -779,6 +691,7 @@ main {
     column-rule-style: double;
     column-rule-width: 3px;
 }
+
 
 .parrafo-congreso::first-line {
     font-size: 18px;
@@ -813,95 +726,3 @@ main {
     border-radius: 15%;
 }
 
-
-
-
-
-
-
-
-
-
-@media (max-width: 578px){
-          .contenedor {
-display: flex;
-flex-direction: column;
-           }
-}
-
-@media (max-width: 578px){
-    .contenedor-turismo {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-croacia {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-deporte {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .obelisco {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .fotos-antiguas {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-parque-lezama {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-rosedal {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-kavanagh {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-indio {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .larenga {
-display: flex;
-flex-direction: column;
-     }
-}
-
-@media (max-width: 578px){
-    .contenedor-costa {
-display: flex;
-flex-direction: column;
-     }
-}
